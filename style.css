@@ -1,0 +1,55 @@
+body {
+  font-family: helvetica, sans-serif;
+  background-color: lightgrey;
+}
+
+nav {
+  margin-bottom: 70px;
+}
+
+nav > a {
+  border: 2px solid chartreuse;
+  color: purple;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 25px;
+}
+
+body > div {
+  background-color: white;
+  width: 55%;
+  margin: 5px auto;
+  padding: 20px;
+  line-height: 1.5em;
+}
+
+#logo {
+  display: block;
+  text-align: right;
+  border-bottom: 1px dotted chartreuse;
+  padding-bottom: 20px;
+  color: purple;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+body > div > h1 {
+  color: red;
+}
+
+body > div > h2 {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+ p > a {
+   color: green;
+   font-weight: bolder;
+ }
+
+ ul {
+   color: white;
+   background-color: green;
+   display: inline-block;
+   padding: 20px 100px 20px 50px;
+ }
